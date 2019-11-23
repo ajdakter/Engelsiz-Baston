@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewspaperActivity"
+    android:background="#FFFFFF">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/news_toolbar"
+        app:titleTextColor="#FFFFFF" />
+
+
+    <Button
+        android:onClick="go_back"
+        android:id="@+id/btn_back"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/custom_button"
+        android:gravity="center"
+        android:text="Geri"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/g_news"
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/images_hhh"
+        android:gravity="clip_horizontal"
+        android:onClick="goDetails"
+        android:text="Gündem"
+        android:textColor="#d77b45"
+        android:textSize="35sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <Button
+        android:id="@+id/w_news"
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="345dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/images_cc"
+        android:gravity="clip_horizontal"
+        android:onClick="goDetails"
+        android:paddingRight="150dp"
+        android:text="Dünya"
+        android:textColor="#d77b45"
+        android:textSize="35sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <Button
+        android:id="@+id/c_news"
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="185dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/images_hh"
+        android:gravity="clip_horizontal"
+        android:onClick="goDetails"
+        android:text="Türkiye"
+        android:textColor="#d77b45"
+        android:textSize="35sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "421099386952",
+    "firebase_url": "https://engelsiz-baston-92e05.firebaseio.com",
+    "project_id": "engelsiz-baston-92e05",
+    "storage_bucket": "engelsiz-baston-92e05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421099386952:android:f5a5852de4928ee6abc07d",
+        "android_client_info": {
+          "package_name": "com.engelsiz.engelsiz_baston2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421099386952-hqsliku8486bsgfoi6gtj7smvkfuppdm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.engelsiz.engelsiz_baston2",
+            "certificate_hash": "52dbd3537a3d8676df98ab22f6e81906faf635a3"
+          }
+        },
+        {
+          "client_id": "421099386952-19t0d5fkqa7f3celij10rftpgca7q7a0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSLxyANXlNMwveiMcFS-9GJCpA-3FlOok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421099386952-19t0d5fkqa7f3celij10rftpgca7q7a0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

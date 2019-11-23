@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="#363473"
+    android:gravity="center"
+    android:minHeight="120dp"
+    android:visibility="visible"
+    app:maxButtonHeight="60dp"
+    app:navigationIcon="@drawable/rsz_1elif5_1"
+    app:title="Birlikte Yürüyelim"
+    app:titleMarginTop="25dp"
+    app:titleTextColor="#FFFFFF"
+    tools:visibility="visible">
+
+</androidx.appcompat.widget.Toolbar>

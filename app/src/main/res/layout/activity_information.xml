@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:background="#edddd7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformationActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/info_toolbar"
+        app:titleTextColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/main2_design"
+        android:divider="@android:color/background_light"
+        android:paddingLeft="20dp"
+        android:paddingTop="40dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="5dp"
+        android:text="@string/baston_kapsad_mekanlar_i_erisinde_seni_eri_ilebilir_bi_imde_y_nlendirmek_zere_tasarlanan_yol_g_sterici_bir_uygulamad_r_ve_baston_ile_entegre_bir_ekilde_al_r_bu_nedenle_engelsiz_baston_uygulamas_n_kullan_rken_baston_kullan_m_na_devam_etmeni_neririz_uygulama_herhangi_bir_operat_rden_ba_ms_z_olarak_hizmet_vermektedir_uygulamay_indirdikten_sonra_engelsiz_baston_simgesine_dokunarak_hemen_kullanmaya_ba_layabilirsin_teknik_sorunlar_sebebiyle_yoldaki_ilerlemeler_sonras_nda_konumland_rmada_gecikme_ve_hatalar_olabilir_b_yle_durumlarda_biraz_beklemen_yeterli_olacakt_r_beklenmedik_sorunlarla_kar_la_rsan_destek_b_l_m_nden_bizlere_iletebilirsin_en_k_sa_s_rede_sana_yard_mc_olmaya_al_aca_z_nas_l_al_r_uygulamay_indirdikten_sonra_engelsiz_baston_simgesine_dokunarak_hemen_kullanmaya_ba_layabilirsin_uygulamay_sa_l_kl_kullanabilmek_i_in_bluetooth_u_a_man_ve_konum_servisleri_kullan_m_na_izin_vermen_gerekiyor_bunun_d_nda_uygulamadan_gelecek_bildirimler_i_in_de_izin_vermeni_neriyoruz"
+        android:textColor="#191838"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897" />
+
+    <Button
+        android:onClick="go_back"
+        android:id="@+id/c_news"
+        android:layout_width="331dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/custom_button"
+        android:gravity="center"
+        android:text="Geri"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

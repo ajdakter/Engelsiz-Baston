@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">  Engelsiz Baston</string>
+    <string name="girisBtn">Giriş</string>
+    <string name="information">information about using application</string>
+    <string name="appImage">appImage</string>
+    <string name="login">Giriş</string>
+    <string name="close">Çıkış</string>
+    <string name="appName">Engelsiz Baston</string>
+    <string name="book">Kitap Okuyalım</string>
+    <string name="textviewdata">TextView</string>
+    <string name="btnOpen">Aç</string>
+    <string name="bilgilendirme">Bilgilendirme</string>
+    <string name="btnClose">Kapat</string>
+    <string name="appLogo">AppLOgo</string>
+    <string name="icon_record">icon_record</string>
+    <string name="kay_t_ba_la">Kayıt Başla</string>
+    <string name="g_nder">Gönder</string>
+    <string name="durdur">Durdur</string>
+    <string name="record_icon">TODO</string>
+    <string name="newspaper_image">NewspaperImage</string>
+    <string name="imageView">ImageView</string>
+    <string name="tv_info">"1-) Uygulama Hakkında Genel Bilgi ve Dikkat Edilecek Noktalar Engelsiz Baston, kapsadığı mekanlar içerisinde seni erişilebilir biçimde yönlendirmek üzere tasarlanan yol gösterici bir uygulamadır ve baston ile entegre bir şekilde çalışır. Bu nedenle Engelsiz Baston uygulamasını kullanırken baston kullanımına devam etmeni öneririz. Uygulama herhangi bir operatörden bağımsız olarak hizmet vermektedir. Uygulamayı indirdikten sonra Engelsiz Baston simgesine dokunarak hemen kullanmaya başlayabilirsin. Teknik sorunlar sebebiyle yoldaki ilerlemeler sonrasında konumlandırmada gecikme ve hatalar olabilir böyle durumlarda biraz beklemen yeterli olacaktır. Beklenmedik sorunlarla karşılaşırsan Destek bölümünden bizlere iletebilirsin. En kısa sürede sana yardımcı olmaya çalışacağız.  Nasıl Çalışır? Uygulamayı indirdikten sonra Engelsiz Baston simgesine dokunarak hemen kullanmaya başlayabilirsin. Uygulamayı sağlıklı kullanabilmek için Bluetooth'u açman ve konum servisleri kullanımına izin vermen gerekiyor. Bunun dışında uygulamadan gelecek bildirimler için de izin vermeni öneriyoruz.  2-) Nasıl Kullanılır? Uygulamanın açılış ekranı olan Mekân Listesi ekranında, uygulamanın kapsadığı kamu kurumları, üniversite kampüsleri, alışveriş merkezleri ve ibadet yerleri benzeri geniş bir konum listesinin ve ayarlar düğmesinin bulunduğu bir sayfayla karşılaşacaksın. Bu mekân listesi sana en yakın bulunan mekândan en uzakta bulunan mekâna doğru sıralanmış olacak. Bu sayfadan gitmek istediğin yeri seçerek mekâna ilişkin bilgi ve dolaşım seçeneklerinin bulunduğu sayfaya ulaşabilirsin. Bu sayfaya ulaştığında mekân içerisinde gidilebilecek yerlerin listesi sana sunulacak ve buradan gitmek istediğin yeri belirleyerek dolaşıma başlayabileceksin. Gidilecek nokta seçilerek navigasyon ekranı açıldığında, bulunduğun konum bluetooth, kablosuz ağ ve GPS sinyallerinin birleşiminden oluşan bir algoritma belirlenerek hedefe yönlendirilmen sağlanır. Uygulama, görme engelli Sesli Adımlar kullanıcılarının kullandıkları yardımcı teknolojiyle tamamen uyumlu tasarlandığından, gitmek istediğin hedefe olan uzaklığın ve hedefin yönü gibi bilgiler, saat yönü ve metre bilgileri baz alınarak sana aktarılır ve yönlendirilmen sağlanır. Ulaşılan hedeften farklı noktalara gitmek istediğin takdirde aynı işlemi tekrarlaman yeterli olacaktır. Ayrıca yaşanabilecek acil durumları veya ihtiyaç duyabileceğin bazı kategorileri de düşünerek hızlı ulaşabilmen için mekân detay ekranlarına çıkışlar, lavabo ve danışma benzeri yerleri kısa yol butonu olarak ekledik. Bu noktalardan birini seçtiğinde, bulunduğun konum temel alınarak en yakınında bulunan lavabo, çıkış veya danışmaya yönlendirilirsin. Uygulamanın kapsadığı mekanlardan birine uzak bir konumdayken mekân detayı ekranına girip beni buraya götür düğmesine dokunduğunda, telefonunun varsayılan harita uygulamasına yönlendirilerek mekâna ulaşımını planlaman istenir. Uygulama, mekân konumunu harita uygulamana iletir ve sana en uygun navigasyon seçeneğini belirleyerek Engelsiz Baston kullanabileceğin konuma ulaşman sağlanır."</string>
+    <string name="textview">TextView</string>
+    <string name="yakinda">YAKINDA</string>
+    <string name="finger_printer">Finger</string>
+    <string name="place_your_finger_on_the_scanner_to_print">Place your Finger on the Scanner to Print</string>
+    <string name="android_fingerprint_authentication">Android Fingerprint Authentication</string>
+    <string name="top_headlines" />
+    <string name="_01january_1996">01January 1996</string>
+    <string name="todo">TODO</string>
+    <string name="geri">Geri</string>
+    <string name="ba_l_k">Başlık</string>
+    <string name="baston_kapsad_mekanlar_i_erisinde_seni_eri_ilebilir_bi_imde_y_nlendirmek_zere_tasarlanan_yol_g_sterici_bir_uygulamad_r_ve_baston_ile_entegre_bir_ekilde_al_r_bu_nedenle_engelsiz_baston_uygulamas_n_kullan_rken_baston_kullan_m_na_devam_etmeni_neririz_uygulama_herhangi_bir_operat_rden_ba_ms_z_olarak_hizmet_vermektedir_uygulamay_indirdikten_sonra_engelsiz_baston_simgesine_dokunarak_hemen_kullanmaya_ba_layabilirsin_teknik_sorunlar_sebebiyle_yoldaki_ilerlemeler_sonras_nda_konumland_rmada_gecikme_ve_hatalar_olabilir_b_yle_durumlarda_biraz_beklemen_yeterli_olacakt_r_beklenmedik_sorunlarla_kar_la_rsan_destek_b_l_m_nden_bizlere_iletebilirsin_en_k_sa_s_rede_sana_yard_mc_olmaya_al_aca_z_nas_l_al_r_uygulamay_indirdikten_sonra_engelsiz_baston_simgesine_dokunarak_hemen_kullanmaya_ba_layabilirsin_uygulamay_sa_l_kl_kullanabilmek_i_in_bluetooth_u_a_man_ve_konum_servisleri_kullan_m_na_izin_vermen_gerekiyor_bunun_d_nda_uygulamadan_gelecek_bildirimler_i_in_de_izin_vermeni_neriyoruz">Baston, kapsadığı mekanlar içerisinde seni erişilebilir biçimde yönlendirmek üzere tasarlanan yol gösterici bir uygulamadır ve baston ile entegre bir şekilde çalışır. Bu nedenle Engelsiz Baston uygulamasını kullanırken baston kullanımına devam etmeni öneririz. Uygulama herhangi bir operatörden bağımsız olarak hizmet vermektedir. Uygulamayı indirdikten sonra Engelsiz Baston simgesine dokunarak hemen kullanmaya başlayabilirsin. Teknik sorunlar sebebiyle yoldaki ilerlemeler sonrasında konumlandırmada gecikme ve hatalar olabilir böyle durumlarda biraz beklemen yeterli olacaktır. Beklenmedik sorunlarla karşılaşırsan Destek bölümünden bizlere iletebilirsin. En kısa sürede sana yardımcı olmaya çalışacağız. Nasıl Çalışır? Uygulamayı indirdikten sonra Engelsiz Baston simgesine dokunarak hemen kullanmaya başlayabilirsin. Uygulamayı sağlıklı kullanabilmek için Bluetooth\'u açman ve konum servisleri kullanımına izin vermen gerekiyor. Bunun dışında uygulamadan gelecek bildirimler için de izin vermeni öneriyoruz.</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.engelsiz.engelsiz_baston2">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/engelsiz_baston"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/engelsiz_baston"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="com.engelsiz.engelsiz_baston2.NewsDetailsActivity"></activity>
+        <activity android:name="com.engelsiz.engelsiz_baston2.login.finger_printer.FingerPrinterActivity" />
+        <activity
+            android:name="com.engelsiz.engelsiz_baston2.book_page.BookListActivity"
+            android:parentActivityName="com.engelsiz.engelsiz_baston2.MainActivity" />
+        <activity android:name="com.engelsiz.engelsiz_baston2.SupportActivity" />
+        <activity android:name="com.engelsiz.engelsiz_baston2.MapActivity" />
+        <activity android:name="com.engelsiz.engelsiz_baston2.NavigationActivity" />
+        <activity android:name="com.engelsiz.engelsiz_baston2.NewspaperActivity" />
+        <activity android:name="com.engelsiz.engelsiz_baston2.book_page.BookActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.engelsiz.engelsiz_baston2.MainActivity" />
+
+        <activity
+            android:name="com.engelsiz.engelsiz_baston2.MainActivity"
+            android:parentActivityName="com.engelsiz.engelsiz_baston2.book_page.BookListActivity" />
+        <activity android:name="com.engelsiz.engelsiz_baston2.InformationActivity" />
+        <activity android:name="com.engelsiz.engelsiz_baston2.login.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
