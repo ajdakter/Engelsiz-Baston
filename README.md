@@ -4,7 +4,7 @@
  Goals of *Engelsiz Baston* :
  ```
 - Easily walk
-- Listen book and news
+- Listen books and news
 - Share emotion about application(feedback)
 - Easily learn features about application
 
